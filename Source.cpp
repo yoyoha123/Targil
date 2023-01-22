@@ -12,7 +12,6 @@ int main(int argc , char *argv[])
 		cout << "Error not enough parameters";
 		return ERROR;
 	}
-	printf("Another Changes");
 
 	uint32_t reps = atoi(argv[NUM_REPS_INDEX]);
 	if (reps == ATOI_FAILED)
