@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// Minor change
 const enum INDEX {PATH,NUM_REPS_INDEX,STRING_INDEX};
 const enum RUN {SUCCESS,ERROR = -1};
 int main(int argc , char *argv[])
